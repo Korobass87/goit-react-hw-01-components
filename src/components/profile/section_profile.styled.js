@@ -27,7 +27,7 @@ display: flex;
 const Avatar = styled.img`
 width: 100px;
   height: 100px;
-  padding: 5px;
+  padding: 0px;
   border-radius: 50%;
   background-color: rgb(235, 225, 225);
 `
