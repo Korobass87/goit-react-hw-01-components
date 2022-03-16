@@ -1,17 +1,17 @@
 import React from "react"
-import SectionProfile from "../profile/section_profile"
-import SectionStatistics from "../statistics/section_statistics"
-import SectionFrienList from"../FriendList/section_friendList"
-import SectionTransaction from"../transactions/section_transactions"
+import SectionProfile from "../profile/sectionProfile"
+import SectionStatistics from "../statistics/sectionStatistics"
+import SectionFrienList from"../friendList/sectionFriendList"
+import SectionTransaction from"../transactions/sectionTransactions"
 
 
 export default function App() {
     return (<div>
-            <SectionProfile />
-        <SectionStatistics />
-        <SectionFrienList />
-        <SectionTransaction/>
-    </div>
+                <SectionProfile />
+                <SectionStatistics titleName={"Upload stats"} />
+                <SectionFrienList />
+                <SectionTransaction/>
+            </div>
     
 
     ) 

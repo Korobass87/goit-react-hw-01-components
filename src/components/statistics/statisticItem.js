@@ -1,5 +1,5 @@
 import React from "react";
-import {Label, Percentage} from './Section_statistic.styled'
+import {Label, Percentage} from './sectionStatistic.styled'
  
 
 export default function OneItem({ percentage, label }) {

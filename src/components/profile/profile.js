@@ -1,4 +1,4 @@
-import {Profile, Description, Avatar, UserName, Tag, Stats, StatsItem, Location, Label, Quantity } from "./section_profile.styled"
+import {Profile, Description, Avatar, UserName, Tag, Stats, StatsItem, Location, Label, Quantity } from "./sectionProfile.styled"
 import React from "react";
 
 export default function ProfileFn({avatar, username, tag, location, followers, views, likes}) {

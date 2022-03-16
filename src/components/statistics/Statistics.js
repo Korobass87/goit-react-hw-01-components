@@ -1,6 +1,6 @@
-import OneItem from './statistic _item'
+import OneItem from './statisticItem'
 import React from "react";
-import {List, Item} from './Section_statistic.styled'
+import {List, Item} from './sectionStatistic.styled'
 export default function Statistics ({info}) {
     
     return (

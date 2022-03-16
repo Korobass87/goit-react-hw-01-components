@@ -1,5 +1,5 @@
 import Friend from "./Item"
-import { ListUser } from './Profile.styled'
+import { ListUser } from './profile.styled'
 export default function List ({friendsArr}) {
     
     return (

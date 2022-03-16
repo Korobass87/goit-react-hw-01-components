@@ -1,5 +1,5 @@
-import { Container } from './Profile.styled'
-import List from "./FriendList"
+import { Container } from './profile.styled'
+import List from "./friendList"
 import friends from"./friends.json"
 export default function SectionFrienList() {
     

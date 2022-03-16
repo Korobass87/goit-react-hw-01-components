@@ -1,9 +1,9 @@
 
 
-import {User, Name, Online, Avatar} from "./Profile.styled"
+import {User, Name, Online, Avatar} from "./profile.styled"
 
 
-export default function Friend({ id, avatar, name, status }) {
+export default function Friend({avatar, name, status }) {
     
     function getColor() {
        return status ? "green" : "red"

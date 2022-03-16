@@ -1,6 +1,6 @@
 
-import {Container} from './Section_transaction.styled'
-import Transaction from './Transaction'
+import {Container} from './sectionTransaction.styled'
+import Transaction from './transaction'
 
 export default function SectionTransaction() {
     

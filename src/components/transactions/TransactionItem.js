@@ -1,14 +1,20 @@
 
-import {ItemBody, DataBody} from './Section_transaction.styled'
+import {ItemBody, DataBody} from './sectionTransaction.styled'
 
-export default function Item({currency, type, amount, idx}) {
-    return (
-    <ItemBody idx={idx}>
-            <DataBody>{Upper(type)}</DataBody>
-      <DataBody>{amount}</DataBody>
-            <DataBody>{currency}</DataBody>
-    </ItemBody>
+export default function TransactionHistory ({items}) {
+   return (
 
+        <tbody>
+            {items.map(({id, type, amount, currency}, idx) =>
+              <ItemBody key={id} idx={idx}>
+              <DataBody>{Upper(type)}</DataBody>
+        <DataBody>{amount}</DataBody>
+              <DataBody>{currency}</DataBody>
+      </ItemBody>                
+            )
+            }
+  </tbody>
+   
     )
 }
 

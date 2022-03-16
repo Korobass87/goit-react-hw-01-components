@@ -1,6 +1,6 @@
-import data from "./transactions.json"
-import Item from './TransactionItem'
-import {Table, TitleTable, TitleColumn} from './Section_transaction.styled'
+import transactions from "./transactions.json"
+import TransactionHistory  from './transactionItem'
+import {Table, TitleTable, TitleColumn} from './sectionTransaction.styled'
 
 
 export default function Transaction() {
@@ -12,12 +12,7 @@ export default function Transaction() {
       <TitleColumn>Currency</TitleColumn>
     </TitleTable>
   </thead>
-
-  <tbody>
-            {data.map((item, idx) =>
-                <Item key={item.id} idx={idx} type={item.type} amount={item.amount} currency={ item.currency}/>              
-            )
-            }
-  </tbody>
+  <TransactionHistory  items={transactions} />
+  
 </Table>)
 }
